@@ -1,0 +1,28 @@
+{
+  "name": "tron-permission-recovery-1",
+  "version": "1.0.0",
+  "description": "This repository contains a simple Solidity example for a permission recovery flow and a small Python agent that turns deployment settings into a recovery plan.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angel88520/tron-permission-recovery-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/angel88520/tron-permission-recovery-1/issues"
+  },
+  "homepage": "https://github.com/angel88520/tron-permission-recovery-1#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

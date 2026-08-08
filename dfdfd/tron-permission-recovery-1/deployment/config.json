@@ -1,0 +1,30 @@
+{
+  "network": "tron",
+  "chainId": 728126428,
+  "contractName": "PermissionRecovery",
+  "contractAddress": "",
+  "originalOwner": "TFKi76LieckzDg7jZsXfKsFwDb9twPBJVd",
+  "recoveryAddress": "TFKi76LieckzDg7jZsXfKsFwDb9twPBJVd",
+  "targetActive": "TFKi76LieckzDg7jZsXfKsFwDb9twPBJVd",
+  "ownerPermissionAddress": "TFKi76LieckzDg7jZsXfKsFwDb9twPBJVd",
+  "ownerPermissionWeight": 2,
+  "ownerPermissionThreshold": 3,
+  "activePermissionAddresses": [
+    "TCU7KciLXYW1mMyyi1Uz4p9Gre2u3XwnzZ",
+    "THMCKytMKthnwrHAx4K2CkjHgq1mMCwga6"
+  ],
+  "activePermissionWeight": 1,
+  "activePermissionThreshold": 1,
+  "emergencyRecoveryAddress": "TQdG5Rbb8qU1kL2rmbk2RvpX9vVQ8x4TaN",
+  "threshold": 1,
+  "approverThreshold": 2,
+  "timeLockDuration": 86400,
+  "recoveryMode": "multisig+timelock+emergency",
+  "notes": "Use the original private key to initiate and later complete recovery. The contract emits events that can be monitored off-chain.",
+  "requiredActions": [
+    "deploy",
+    "initiateRecovery",
+    "waitForTimelock",
+    "completeRecovery"
+  ]
+}
